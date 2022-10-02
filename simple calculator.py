@@ -44,6 +44,7 @@ elif user == 5:
     print(num1 ** num2)
 # percentage of two numbers -->
 elif user == 6:
+    percentage = (num1 / num2) * 100
     print((num1 / num2) * 100)
 else:
     print("Enter valid Input")
